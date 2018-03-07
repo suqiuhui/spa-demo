@@ -1,0 +1,81 @@
+<!--人脸比对-->
+<div class="main">
+    <div class="face-wrap">
+        <div class="title clearfix">
+            <div><label>任务 ID：</label><span class="drop">2017-8199566-552</span></div>
+            <div class="describe"><label>任务描述：</label><span>对比监控图和参照图，并标注后续的图片参数项</span></div>
+            <div class="time"><label>任务时限：</label><span>00:59</span></div>
+        </div>
+        <div class="face clearfix">
+            <div class="item item1">
+                <div class="model-title">
+                    历史图（供参考）
+                </div>
+                <div class="piclist">
+                    <a data-repeat="photos" data-item="data">
+                        <img data-src="{{data.value}}">
+                    </a>
+                </div>
+            </div>
+            <div class="item item2">
+                <div class="model-title">
+                    证件照（供参考）
+                </div>
+                <div class="piclist">
+                    <img data-src="{{pic}}">
+                </div>
+            </div>
+            <div class="item item3">
+                <div class="model-title">
+                    现场抓拍照（标记对象）
+                    <a class="refresh" href="javascript:void(0)">
+                        <img src="images/refresh.png">
+                    </a>
+                </div>
+                <div class="piclist">
+                    <img src="images/p3.png">
+                </div>
+            </div>
+            <div class="item item4">
+                <div class="model-title">
+                    根据左侧图片标定参数
+                </div>
+                <div class="piclist">
+                     <span class="task">
+                         <span>37</span> /
+                         <span>2000</span>
+                     </span>
+                     <form>
+                        <div class="taglist">
+                            <div>
+                                <span>是否戴墨镜</span>
+                                <input id="tag1" type="checkbox">
+                            </div>
+                            <div>
+                                <span>是否戴普通镜</span>
+                                <input id="tag2" type="checkbox">
+                            </div>
+                            <div>
+                                <span>是否戴帽子</span>
+                                <input id="tag3" type="checkbox">
+                            </div>
+                            <div>
+                                <span>是否留胡子</span>
+                                <input id="tag4" type="checkbox">
+                            </div>
+                            <div>
+                                <span>是否与证件照相似</span>
+                                <input id="tag5" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <a class="btn drop">放弃</a>
+                            <a class="btn submit">完成并提交审核</a>
+                        </div>
+                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

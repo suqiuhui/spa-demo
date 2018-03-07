@@ -1,0 +1,221 @@
+/*face begin*/
+.left {
+    /*		border: 1px solid red;*/
+    width: 20%;
+    float: left;
+    padding: 20px;
+    /*		padding-top: 40px;*/
+    margin-top: 40px;
+}
+.left .btn {
+    width: 180px;
+    background: #0080FD;
+}
+.content {
+    width: 80%;
+    float: left;
+}
+#pic_show {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#pic_show li {
+    width: 160px;
+    height: 100px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+#pic_show li a img {
+    width: 160px;
+    height: 100px;
+}
+
+.div_area {
+    position: relative;
+    margin-left:100px;
+    margin-top: 10px;
+    cursor: crosshair;
+}
+.pageCtrl {
+    float: left;
+    width: 100%;
+}
+.face-wrap{
+    border-top: 1px solid #d2d2d2;
+    padding-top: 7px;
+}
+.face-wrap .title{
+    height: 21px;
+    padding:12px 28px;
+    line-height:21px;
+    font-size: 12px;
+    color: #fff;
+    background: #51575f;
+}
+.face-wrap .title > div{
+    float: left;
+    padding-right: 33px;
+    border-right:1px solid #d2d2d2;
+}
+.face-wrap .title > .describe{
+    padding-left:48px;
+    background:url("../images/light.png") no-repeat 17px center;
+}
+.face-wrap .title > .time{
+    padding-left: 20px;
+}
+.face-wrap .title > div .drop{
+    width: 125px;
+    display: inline-block;
+    padding-right: 10px;
+    background:url("../images/drop.png") no-repeat center right;
+    cursor: pointer;
+}
+.face-wrap .face .item{
+    float: left;
+    height: 606px;
+}
+.face-wrap .face .item1{
+    width: 20.2%;
+}
+.face-wrap .face .item2{
+    width: 20.8%;
+}
+.face-wrap .face .item3{
+    width: 39.1%;
+}
+.face-wrap .face .item4{
+    width: 19.9%;
+}
+.face-wrap .face .model-title{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    height:45px;
+    line-height: 45px;
+}
+.face-wrap .face .model-title .refresh{
+    float: right;
+    margin-right: 55px;
+    margin-top: 12px;
+    line-height:20px;
+}
+.face-wrap .face .item1 .model-title{
+    background:#4d4d4d url(../images/history.png) no-repeat 19px center;
+}
+.face-wrap .face .item2 .model-title{
+    background:#6b6b6b url(../images/license.png) no-repeat 19px center;
+}
+.face-wrap .face .item3 .model-title{
+    background:#4d4d4d url(../images/camera.png) no-repeat 19px center;
+}
+.face-wrap .face .item4 .model-title{
+    background:#6b6b6b url(../images/task.png) no-repeat 19px center;
+}
+.face-wrap .face .piclist{
+    height: 560px;
+    overflow: auto;
+    text-align: center;
+}
+.face-wrap .item1 .piclist{
+    background-color:#b7b7b7;
+    padding:10px;
+    height:540px;
+}
+.face-wrap .item1 .piclist > a{
+    display: block;
+    margin-bottom: 5px;
+}
+.face-wrap .item2 .piclist{
+    line-height:560px;
+}
+.face-wrap .item1 .piclist img,.face-wrap .item2 .piclist img{
+    vertical-align: middle;
+}
+.face-wrap .item3 .piclist{
+    background:#b7b7b7 url(../images/photo.png) no-repeat center;
+    line-height:560px;
+    position: relative;
+    overflow: visible;
+}
+.face-wrap .item3 .piclist:before{
+    position: absolute;
+    content: "";
+    border-top:16px solid #fff;
+    border-bottom:16px solid #fff;
+    border-right:16px solid #b7b7b7;
+    left:-16px;
+    top: 50%;
+    margin-top:-16px;
+}
+.face-wrap .item3 .piclist img{
+    vertical-align: middle;
+}
+.face-wrap .item4 .piclist{
+    background-color:#fff;
+    padding-top: 20px;
+    position: relative;
+    overflow: visible;
+    height:540px;
+}
+.face-wrap .item4 .piclist:before{
+    position: absolute;
+    content: "";
+    border-top:16px solid #b7b7b7;
+    border-bottom:16px solid #b7b7b7;
+    border-right:16px solid #fff;
+    left:-16px;
+    top: 50%;
+    margin-top:-16px;
+}
+.face-wrap .item4 .piclist .task{
+    display: inline-block;
+    width: 95px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color:#bcb6ac;
+    border-radius:4px;
+}
+.face-wrap .item4 .taglist{
+    margin-top: 24px;
+    padding:0 35px;
+}
+.face-wrap .item4 .taglist > div{
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 12px;
+    color: #51575f;
+}
+.face-wrap .item4 .taglist input{
+    float: right;
+}
+.face-wrap .item4 .btns{
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.face-wrap .item4 .btns a{
+    display: inline-block;
+    width: 95px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 12px;
+    color: #51575f;
+    cursor: pointer;
+    border-radius: 4px;
+    margin:0 5px;
+}
+.face-wrap .item4 .btns a.drop{
+    background-color: #bcb6ac;
+}
+.face-wrap .item4 .btns a.submit{
+    background-color: #ffb128;
+}
+/*face end*/
